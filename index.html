@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Numeric Cubes</title>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.13/angular.js"></script>
+<script src = "js/app.js"></script>
+
+
+</head>
+<body ng-app="cubeApp">
+
+<div>  
+    <div ng-controller="cubeController">  
+        Enter a number:  
+        <input type="number" ng-model="number" />  
+
+        <button ng-click = "submit()">Result</button>  
+           
+        <div>Sum: {{sum}}</div>  
+    </div>  
+</div>
+</body>
+</html>
